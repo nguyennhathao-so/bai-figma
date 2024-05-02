@@ -1,0 +1,38 @@
+.box {
+  width: 500px;
+  height: 500px;
+  background-image: url(/img1/1.PNG);
+  border: 5px solid green;
+  padding: 50px;
+  margin: 200px;
+  /* background-clip: content-box; */
+  /* background-clip: border-box;
+  background-clip: content-box; */
+}
+/* .text_higlight { */
+/* làm hóa đơn trong suốt  */
+/* color: transparent;
+  background-color: aqua;
+  background-clip: text; */
+/* trên trang website không hiện thị thì do không phù hợp tương thích nên ta dùng cầu lệnh bài trước đó  */
+/* -webkit-background-clip: text;
+} */
+/* giả sử  nếu ta cài trong trình duyệt của chúng ta thì nó mới thực hiện cái câu lệnh này 
+  background-clip: text;
+  -webkit-background-clip: text;*/
+
+/* nếu nó không hỗ trợ thì ta sử dụng câu lệnh này : */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  /* câu lệnh này có tác dụng là kiểm tra xem trong trình duyệt có hỗ trợ hai cái trên nếu có thì thực hiện các bước tiếp theo còn nếu không có thì không thực hiện */
+  .text_higlight {
+    /* làm hóa đơn trong suốt  */
+    color: transparent;
+    background-color: aqua;
+    background-color: #00dbde;
+    background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+
+    background-clip: text;
+    /* trên trang website không hiện thị thì do không phù hợp tương thích nên ta dùng cầu lệnh bài trước đó  */
+    -webkit-background-clip: text;
+  }
+}

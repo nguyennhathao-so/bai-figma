@@ -1,0 +1,26 @@
+.box {
+  /* căn text giữa các khối  */
+  display: flex;
+  /* căn theo chiều ngang */
+  justify-content: center;
+  /* căn theo chiều dọc */
+  align-items: center;
+  font-size: 30px;
+  position: absolute;
+}
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(6, 240, 103);
+  /* z-index: 2; */
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(158, 224, 16);
+}

@@ -1,0 +1,13 @@
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid yellowgreen;
+  margin-left: -100px;
+}
+.avatar:first-child {
+  margin-left: 0;
+}
+.hinham {
+  background-color: blanchedalmond;
+}

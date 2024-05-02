@@ -1,0 +1,40 @@
+.hopbox {
+  display: flex;
+}
+.box {
+  flex-basis: 100px;
+  /* width: 100px; */
+  /* max-width: 200px; */
+  /*
+1. nếu max-width < flex-basis ->max-width
+2. nếu max-width > flex-basis -> flex-basis
+*/
+
+  /* min-width: 200px; quy định độ rộng tối thiểu và không bị thay đổi nữa */
+  /* Không có gì thay đổi vị giá trị là 0 */
+  flex-grow: 0;
+  /* trong trường hộp khi bị co lại giá trị không còn phù hợp với giá trị thì nó sẽ co lại tới giá trị min */
+  flex-shrink: 1;
+  flex-basis: 100px;
+
+  /* ta có thể viết gọn lại 3 dòng kết là  flex-grow: 0;flex-shrink: 1;
+  flex-basis:100px; thành flex:0 1 100px; */
+}
+.box1 {
+  background-color: cyan;
+  order: 2;
+}
+.box2 {
+  background-color: rgb(255, 0, 230);
+  /* other dùng để thay đổi của đối tượng  */
+  order: 1;
+}
+.box3 {
+  background-color: rgb(0, 255, 4);
+}
+.box4 {
+  background-color: rgb(204, 184, 0);
+}
+.box5 {
+  background-color: rgb(238, 0, 44);
+}

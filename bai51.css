@@ -1,0 +1,18 @@
+div {
+  width: 500px;
+}
+.anhyeu strong {
+  background-color: blueviolet;
+  padding: 30px;
+  /* nếu ta đã thêm padding ở bốn hướng nhưng nó chỉ mở rộng ở chiều ngang thì hiểu nó nằm trong inline */
+}
+.anhthuong strong {
+  background-color: blanchedalmond;
+  margin: 30px;
+  /* cũng tương tự với padding thì margin cũng chỉ mở rộng chiều ngang */
+}
+.anhban strong {
+  display: inline-block;
+  background-color: aqua;
+  padding: 30px;
+}

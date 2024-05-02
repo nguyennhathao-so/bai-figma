@@ -1,0 +1,23 @@
+body {
+  background-color: aqua;
+}
+.box {
+  height: 100vh;
+  height: 100vw;
+  /* link hình nền background */
+  background-image: url(/img1/mot-chiec-hinh-nen-vua-dang-yeu-vua-huyen-ao-cho-ban-nu.jpg);
+  /* bỏ hiện thị nền  */
+  background-image: none;
+}
+.box1 {
+  height: 100vh;
+  background-image: url(/img1/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg);
+  /*BG Không lặp lại*/
+  background-repeat: no-repeat;
+  /*BG lắp lại truc x*/
+  background-repeat: repeat-x;
+  /*BG lặp lại trục y*/
+  background-repeat: repeat-y;
+  /*BG lặp lại (mặc định)*/
+  background-repeat: repeat;
+}

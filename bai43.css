@@ -1,0 +1,16 @@
+.content h1 {
+  font-size: 100px;
+  font-style: oblique;
+}
+.content p {
+  font-size: 40px;
+  line-height: 1.4;
+  font-style: italic;
+}
+.content {
+  background-color: greenyellow;
+  /* margin: 0 300px; */
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}

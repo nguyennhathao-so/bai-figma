@@ -1,0 +1,27 @@
+body {
+  background-image: url(/img1/1.PNG);
+  background-size: cover;
+}
+/* .box {
+  margin-top: 50px;
+  height: 100px;
+  background-color: rgb(118, 84, 84);
+  background-image: url(/img1/1.PNG);
+  /* làm mờ  */
+/* backdrop-filter: blur(100px); 
+}  */
+.box1 {
+  margin-top: 50px;
+  height: 100px;
+  background-color: rgb(198, 15, 15);
+  /* làm mờ  */
+}
+
+@supports (backdrop-filter: blur(10px) contrast(50%)) or
+  (-webkit-backdrop-filter: blur(10px) contrast(50%)) {
+  .box1 {
+    background-color: rgba(255, 0, 0, 0.713);
+    backdrop-filter: blur(10px) contrast(50%);
+    -webkit-backdrop-filter: blur(10px) contrast(50%);
+  }
+}

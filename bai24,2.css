@@ -1,0 +1,12 @@
+img {
+  transition: 1.5s;
+}
+/* ý nghĩa của cách viết dưới đây là khi hộp checkbox được kích chọn thì nó sẽ chọn các thẻ img đồng cấp của nó */
+input:checked ~ img {
+  /* nếu muốn nó biến mất khỏi giao diện luôn kiềm vùng chứa cũng biến mất  */
+  opacity: 0;
+  display: none;
+  /* ẩn không bị mất khoảng chứa  */
+
+  /* visibility: hidden; */
+}

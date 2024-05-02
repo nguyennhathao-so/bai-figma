@@ -1,0 +1,14 @@
+li {
+  /* xóa dấu chấm đầu dòng trong thẻ ul của li */
+  list-style-type: none;
+  margin-top: 7px;
+}
+.fa-house {
+  color: rgb(54, 54, 54);
+}
+.fa-facebook {
+  color: rgb(94, 94, 185);
+}
+.fa-tiktok {
+  color: rgb(31, 29, 29);
+}

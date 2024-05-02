@@ -1,0 +1,22 @@
+/* .father {
+  font-size: 10px;
+}
+.chill {
+  width: 10em;
+  height: 10em;
+  background-color: aqua;
+}
+*/
+.anhyeu {
+  font-size: 50px;
+}
+html {
+  font-size: 50px;
+}
+.bonhi {
+  font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: blue;
+  border: 0.1rem solid red;
+}

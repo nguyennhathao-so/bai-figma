@@ -1,0 +1,10 @@
+/* div.demo3 p {
+  color: aqua;
+  font-size: 30px;
+} */
+/* div p{
+    color:blueviolet
+} */
+div > p {
+  color: rgb(96, 6, 213);
+}

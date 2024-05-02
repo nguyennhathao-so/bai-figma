@@ -1,0 +1,23 @@
+.demo1 {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  padding: 50px;
+  border: 10px solid black;
+}
+.demo2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(229, 137, 16);
+  padding: 50px;
+  border: 10px solid rgb(200, 14, 14);
+  margin: 0px 220px;
+}
+.demo3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(4, 246, 173);
+  padding: 50px;
+  border: 10px solid rgb(253, 0, 173);
+  margin: 0px 440px;
+}

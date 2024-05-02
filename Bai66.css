@@ -1,0 +1,58 @@
+.chill1 {
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  overflow: auto;
+  overscroll-behavior: auto;
+  margin: 50px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #08da8d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0740dd;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #020eff;
+}
+
+/* nếu muốn chỉnh sửa hộp như trên tại một dòng văn chỉ định thì làm như sau */
+.chill2 {
+  margin: 50px;
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  overflow: auto;
+  overscroll-behavior: auto;
+}
+/* width */
+.chill2::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.chill2::-webkit-scrollbar-track {
+  background: #08da8d;
+}
+
+/* Handle */
+.chill2::-webkit-scrollbar-thumb {
+  background: #0740dd;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+.chill2::-webkit-scrollbar-thumb:hover {
+  background: #020eff;
+}

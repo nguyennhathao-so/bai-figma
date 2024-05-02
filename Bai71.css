@@ -1,0 +1,10 @@
+.box {
+  width: 500px;
+  height: 310px;
+  border: 5px dotted red;
+  background-image: url(/img1/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg);
+  background-size: contain;
+  background-size: cover;
+  background-size: 200px;
+  background-size: 100% 100%;
+}

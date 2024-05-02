@@ -1,0 +1,16 @@
+/* thẻ h2 liền sát sau thẻ class h1 */
+h1 + h2 {
+  color: red;
+  font-size: 30px;
+}
+.demo2 + h3 {
+  color: blue;
+  font-style: italic;
+}
+/* thẻ h3 liền sát sau class demo2 */
+
+/* chọn tất cả các thẻ p nằm sau thẻ div */
+div ~ p {
+  color: aqua;
+  font-style: oblique;
+}

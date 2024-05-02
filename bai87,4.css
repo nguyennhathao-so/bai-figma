@@ -1,0 +1,25 @@
+.deptrai a {
+  font-size: 50px;
+  color: #007efe;
+  position: fixed;
+  left: 90%;
+  top: 90%;
+}
+.thanhmenu {
+  background-color: #686363;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.thanhmenu li {
+  display: inline-block;
+}
+.thanhmenu a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 80px;
+}
+body {
+  margin-top: 51px;
+}

@@ -1,0 +1,16 @@
+/* body {
+  background-image: url("/img/hanoimoi.com.vn-uploads-album-20190217-_1ea2396c-9273-47c8-959d-ecb14eaa5975.jpg");
+} */
+h2 {
+  opacity: 1;
+  color: aqua;
+  font-style: inherit;
+  background-color: rgb(31, 227, 74);
+}
+h3 {
+  display: none;
+}
+h4 {
+  visibility: hidden;
+  visibility: visible;
+}

@@ -1,0 +1,92 @@
+.demo1 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  /* border: 10px dotted darkcyan; */
+  border-top: 10px dotted darkolivegreen;
+  border-left: 10px groove darkolivegreen;
+  border-right: 10px double darkolivegreen;
+  border-bottom: 10px dashed darkolivegreen;
+}
+.demo2 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border-width: 10px 20px 30px 10px;
+  border-style: dashed double dotted groove;
+  border-color: blue red palevioletred yellow;
+}
+.demo3 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px groove darkcyan;
+}
+.demo4 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px solid darkcyan;
+  border-radius: 30px 30px 50px 100px;
+}
+.demo5 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px ridge darkcyan;
+}
+.demo6 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px inset darkcyan;
+}
+.demo7 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px outset darkcyan;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 20px;
+}
+.demo8 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px dashed darkcyan;
+  border-radius: 50px 30px;
+}
+.demo9 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px none darkcyan;
+}
+.demo10 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: red;
+  padding: 20px;
+  border: 10px hidden darkcyan;
+}

@@ -1,0 +1,26 @@
+p::first-line {
+  color: red;
+}
+/* lưu ý span ban đâu là inline  */
+/* cách thay đổi block */
+span {
+  display: block;
+}
+span::first-line {
+  color: aqua;
+  background-color: blueviolet;
+}
+p::selection {
+  background-color: aquamarine;
+  color: red;
+}
+li::marker {
+  font-size: 30px;
+  color: blueviolet;
+}
+p::before {
+  content: "Ừ có anh đây";
+}
+p::after {
+  content: "Anh không yêu em ";
+}

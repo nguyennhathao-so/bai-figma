@@ -1,0 +1,33 @@
+/*
+1. Thẻ cha và con không có font size
+-- > Lấy theo font-size root(HTML)
+*/
+/* .chill {
+  font-size: 10px;
+  width: 10em;
+  height: 10em;
+  background-color: aqua;
+}
+.father {
+  font-size: 20px;
+}
+ */
+.father {
+  font-size: 10px;
+}
+.chill {
+  width: 10em;
+  height: 10em;
+  background-color: aqua;
+}
+
+.anhyeu {
+  font-size: 2px;
+}
+.bonhi {
+  font-size: 2em;
+  width: 10em;
+  height: 10em;
+  background-color: blue;
+  margin: 10px;
+}

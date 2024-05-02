@@ -1,0 +1,41 @@
+.anhban {
+  height: 100px;
+  background-color: aqua;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.deptra {
+  height: 100px;
+  background-color: aqua;
+  margin-bottom: 15px;
+  width: 80%;
+}
+.depme {
+  height: 100px;
+  background-color: aqua;
+  margin-bottom: 20px;
+  width: 80%;
+}
+:root {
+  --box-height: 100px;
+  --box-color: aqua;
+  --box-wirth: 80%;
+}
+.box1 {
+  height: var(--box-height);
+  background-color: var(--box-color);
+  margin-bottom: 10px;
+  width: var(--box-wirth);
+}
+.box2 {
+  height: var(--box-height);
+  background-color: var(--box-color);
+  margin-bottom: 15px;
+  width: var(--box-wirth);
+}
+.box3 {
+  height: var(--box-height);
+  background-color: var(--box-color);
+  margin-bottom: 20px;
+  width: var(--box-wirth);
+}

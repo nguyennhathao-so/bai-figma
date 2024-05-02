@@ -1,0 +1,21 @@
+/* <!--1. Tác dụng khi di chuột qua-->
+ .di-chuot:hover {
+  color: brown;
+  font-size: 30px;
+} */
+
+/* 2.Tác dụng khi nhấn đúp chuột
+.di-chuot:active {
+  color: brown;
+  font-size: 30px;
+} */
+
+/* 3.Hiển thị màu chữ khác của link  */
+.click_me:link {
+  color: rgb(244, 165, 6);
+}
+
+/* 4.Nếu đã truy cập vào trang wed thì nó sẽ đổi màu theo thiết kế  */
+.click_me:visited {
+  color: rgb(255, 8, 140);
+}

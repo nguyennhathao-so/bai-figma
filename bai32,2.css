@@ -1,0 +1,15 @@
+/* a[title~="pic"][title~="so"] {
+  color: orange;
+} */
+
+/* a[title*="pic"] {
+  color: red;
+} */
+
+/* a[title|="pic"] {
+  color: rgb(0, 239, 195);
+} */
+
+a[title$="3"] {
+  color: blue;
+}

@@ -1,0 +1,19 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  border: 10px solid lightcoral;
+  outline: 10px solid red;
+  margin: 50px;
+  text-align: center;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  border: 10px solid lightcoral;
+  outline: 10px solid red;
+  outline-offset: 10px;
+  margin: 50px;
+  text-align: center;
+}

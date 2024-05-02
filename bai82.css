@@ -1,0 +1,13 @@
+.demo {
+  /* cho bức ảnh di thay đổi kích thước theo thanh điều hướng */
+  max-width: 100%;
+  /* mẹo căn giữa */
+  display: block;
+  margin: 0 auto;
+}
+.box1 {
+  max-width: 700px;
+  background-color: aqua;
+  /* căn giữa */
+  margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+.hopbox {
+  height: 500px;
+  display: flex;
+  background-color: aqua;
+  align-items: start;
+}
+.box {
+  background-color: blue;
+  border: 1px solid black;
+}
+.box1 {
+  align-self: center;
+}
+.hopbox1 {
+  margin-top: 50px;
+  height: 500px;
+  display: flex;
+  background-color: aqua;
+  align-items: start;
+}
+.boxa {
+  background-color: blue;
+  border: 1px solid black;
+}
+.ox1,
+.ox3,
+.ox5 {
+  flex-grow: 2;
+}

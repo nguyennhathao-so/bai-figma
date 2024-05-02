@@ -1,0 +1,23 @@
+.hopbox {
+  display: flex;
+  background-color: aqua;
+  height: 100px;
+  flex-direction: column;
+}
+.box1 {
+  background-color: antiquewhite;
+}
+.box2 {
+  background-color: red;
+  /* margin-left: auto; */
+
+  /* cái này áp dụng khi đã sử dụng flex-direction: column; */
+  /* margin-top: auto; */
+}
+.box3 {
+  background-color: olivedrab;
+  /* margin-left: auto; */
+}
+.box4 {
+  background-color: green;
+}

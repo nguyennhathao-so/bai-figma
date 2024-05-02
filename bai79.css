@@ -1,0 +1,64 @@
+.box {
+  width: 500px;
+  height: 500px;
+  /* background: url(/img1/ava.png) center/cover; */
+  /* có thể viết bằng cách là : */
+  background-image: url(/img1/ava.png);
+  /* clip-path: circle(); */
+  /* clip-path: circle(50%); */
+  clip-path: circle(50%);
+  /* clip-path: circle(50% at 0% 50%); */
+  clip-path: circle(50% at 0% 50%);
+  /*
+
+vì vậy max(width, height) = 500px.
+Tính toán bán kính của hình tròn:
+radius = (50% * max(width, height))
+Xác định giá trị của max(width, height)
+từ kích thước đã cho. Trong trường hợp này,
+.box có width: 200px va height: 500px,
+vì vậy max(width, height) = 500px.
+Tiến hành tính toán bán kính của hình tròn:
+radius = (50% * 500px) = 250px
+Vậy, trong trường hợp này,
+giá trị 50% tương ứng với 250px.
+*/
+}
+
+.box1 {
+  /* dịch chuyển tâm đường tròn */
+  width: 500px;
+  height: 500px;
+  margin: 0% auto;
+  background-image: url(/img1/ava.png);
+  /* clip-path: circle(70% at 55% 40%); */
+  clip-path: circle(50% at 55% 40%);
+}
+.box2 {
+  width: 500px;
+  height: 500px;
+  margin: 0% auto;
+  background-image: url(/img1/ava.png);
+  clip-path: inset(100px 10px 80px 10px);
+}
+.box3 {
+  width: 500px;
+  height: 500px;
+  margin: 0% auto;
+  background-image: url(/img1/ava.png);
+  clip-path: inset(100px round 10px);
+}
+.box4 {
+  width: 500px;
+  height: 500px;
+  margin: 0% auto;
+  background-image: url(/img1/ava.png);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+}
+.box5 {
+  width: 500px;
+  height: 500px;
+  margin: 50% auto;
+  background-image: url(/img1/ava.png);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 30% 100%);
+}

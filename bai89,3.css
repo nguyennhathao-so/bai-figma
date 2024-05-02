@@ -1,0 +1,40 @@
+* {
+  font-size: 1.5rem;
+}
+.hopbox {
+  height: 500px;
+  display: flex;
+  /* căn di chuyển bên trái  */
+  /* justify-content: start; */
+
+  /* căn di chuyển cuối bên phải  */
+  /* justify-content: end; */
+
+  /* căn di chuyển ở giữa  */
+  /* justify-content: center; */
+
+  /* căn giữa hai bên sát lề   */
+  /* justify-content: space-between; */
+
+  /* căn giữa hai bên nhưng hai khối gần nhau thì cách xa hơn  */
+  /* justify-content: space-around; */
+
+  /* căn giữa các từ bằng nhau  */
+  justify-content: space-evenly;
+
+  /* align-items: stretch; */
+  /* align-items: start; */
+  /* align-items: end; */
+  align-items: center;
+  /* align-items: baseline; */
+  background-color: aqua;
+}
+.box {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  height: 200px;
+}

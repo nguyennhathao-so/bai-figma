@@ -1,0 +1,28 @@
+.hopbox {
+  height: 400px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: aquamarine;
+  /* tạo thanh kéo phía dưới thanh hopbox hay các đối tượng  */
+  /* overflow: auto; */
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 30%;
+  flex-basis: 30%;
+  background-color: yellow;
+  border: 2px solid white;
+  /* tạo thanh kéo phía dưới màn hình để kéo nhầm đủ kích thước  */
+  /* flex-shrink: 0; */
+}
+
+/* nếu không muốn nội dung khối 1 bị ảnh hưởng bởi kích thước mà vẫn giữ nguyên định dàng thì ta ghi */
+/* .box1 { */
+/* nếu muốn thêm cả box2 thì  */
+/* .box1,
+.box2 {
+  flex-shrink: 0;
+} */

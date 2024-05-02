@@ -1,0 +1,16 @@
+/* .div_moi:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blanchedalmond;
+} */
+
+/* viết ở trạng thái trống  */
+/* .div_moi {
+  width: 200px;
+  height: 25px;
+  background-color: blanchedalmond;
+} */
+
+h2:target {
+  color: blue;
+}

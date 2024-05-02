@@ -1,0 +1,26 @@
+.anhban {
+  /* do thẻ div chứa display là block nên chiều rộng lấy full màn hình  */
+  height: 100px;
+  background-color: #aa2424;
+  /* lấy 80% chiều rộng của màn  */
+  width: 80%;
+  /* căn giữa màn hình  */
+  margin: 0 auto;
+}
+.depme {
+  /* do thẻ div chứa display là block nên chiều rộng lấy full màn hình  */
+  height: calc(100vh - 100px);
+  background-color: #0bae54;
+  /* lấy 80% chiều rộng của màn  */
+  width: calc(100%-400px);
+  /* căn giữa màn hình  */
+  margin: 0 auto;
+}
+.deptra {
+  /* do thẻ div chứa display là block nên chiều rộng lấy full màn hình  */
+  height: calc(100vh - 100px);
+  background-color: #100bae;
+  /* lấy 80% chiều rộng của màn  */
+
+  /* căn giữa màn hình  */
+}

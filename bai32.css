@@ -1,0 +1,8 @@
+/* [href] {
+  color: red;
+  font-size: 40px;
+} */
+p [href] {
+  color: red;
+  font-size: 40px;
+}

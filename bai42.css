@@ -1,0 +1,93 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px 10px;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px 10px 60px 90px;
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px 40px 60px;
+}
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px;
+}
+.box6 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+.box7 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px;
+}
+.box8 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px;
+}
+.box9 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px;
+}
+.box10 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  color: firebrick;
+  padding: 100px;
+  border: 10px solid red;
+  margin: 50px;
+}

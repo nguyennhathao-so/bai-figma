@@ -1,0 +1,20 @@
+.chill {
+  width: 300px;
+  height: 200px;
+  white-space: nowrap;
+  background-color: aqua;
+  /* Nội dung ẩn thừa  */
+  overflow: hidden;
+  /* hiện thị dấu 3 chấm ở cuối thay vì vị ẩn  */
+  text-overflow: ellipsis;
+  line-height: 200px;
+}
+/* làm dấu ... ở dòng 2,3 tùy ý nó khái quát hơn đoạn code trên */
+.chill1 {
+  background-color: bisque;
+  overflow: hidden;
+  /* chọn dòng muốn làm dấu hai chấm  */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

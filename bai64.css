@@ -1,0 +1,23 @@
+.chill6 {
+  /* giữ nguyên trạng thái mặc định */
+  white-space: nomal;
+}
+.chill7 {
+  /* giữa nguyên đoạn văn và không tự động xuống dòng  */
+  white-space: nowrap;
+}
+.chill10 {
+  /* giữ nguyên định dạng code giống như thẻ pre trong html */
+  white-space: pre;
+}
+.chill11 {
+  /* giữ nguyên định dạng dấu xuống dòng còn khoảng trắng trong các từ được định dạng lại cho đúng  */
+  white-space: pre-line;
+}
+.chill12 {
+  /* giữ nguyên định dạng code gồm xuống dòng và khoảng trắng các từ nhưng dấu thụt lệ lại định dạng lại cho đúng  */
+  white-space: pre-wrap;
+}
+.chill13 p {
+  word-break: break-all;
+}

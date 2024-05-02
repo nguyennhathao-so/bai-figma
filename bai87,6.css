@@ -1,0 +1,15 @@
+/* position: sticky
+định vị phan tử dinh
+lại theo thẻ cha gan nhất
+có thanh cuộn scroll bar */
+.content {
+  width: 400px;
+  height: 900px;
+  overflow: auto;
+  background: cyan;
+}
+h2 {
+  background: yellow;
+  position: sticky;
+  top: 0;
+}

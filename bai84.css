@@ -1,0 +1,23 @@
+.box {
+  counter-reset: section;
+  padding-left: 30px;
+  background-color: #e80000;
+}
+h2 {
+  /* tăng biến lên một đơn vị  */
+  counter-increment: section;
+  /* tạo biến đếm và reset thẻ h3 về biến 0*/
+  counter-reset: reset1;
+}
+h3 {
+  counter-increment: reset1;
+  padding-left: 30px;
+}
+h2::before {
+  /* thêm trước thẻ h2 */
+  content: "Phần " counter(section) ": ";
+}
+h3::before {
+  content: counter(section) "." counter(reset1) ":";
+  color: blue;
+}

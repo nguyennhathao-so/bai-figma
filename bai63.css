@@ -1,0 +1,40 @@
+.chill0 {
+  /* bỏ gạch chân */
+  text-decoration: none;
+}
+.chill1 {
+  /* thêm gạch chân ở giữa chữ */
+  text-decoration: line-through;
+}
+.chill2 {
+  /* thêm gạch chân */
+  text-decoration: underline;
+}
+.chill3 {
+  /* gạch chân trên đầu chữ  */
+  text-decoration: overline;
+}
+.chill4 {
+  /* đinh dạng kiểu của dấu gạch chân */
+  text-decoration: underline dashed red 5px;
+}
+.chill5 {
+  /*viết hoa chữ cái đầu */
+  text-transform: capitalize;
+}
+.chill8 {
+  /*viết thường toàn bộ*/
+  text-transform: lowercase;
+}
+.chill9 {
+  /*viết hoa toàn bộ  */
+  text-transform: uppercase;
+}
+.chill6 {
+  /* thuật lề vào âm  */
+  text-indent: -40px;
+}
+.chill7 {
+  /* thụt lề vào trong dương */
+  text-indent: 40px;
+}

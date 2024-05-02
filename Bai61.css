@@ -1,0 +1,16 @@
+p {
+  /* tắng độ dày của chữ  */
+  font-weight: 700;
+  /* khoảng cách các dòng  */
+  line-height: 50px;
+  /* người ta thường dùng là  */
+  line-height: 150%;
+  line-height: 1.5;
+}
+.chicuong {
+  height: 500px;
+  background-color: aqua;
+  /* cách dòng chữ giữa khối ô box */
+  line-height: 500px;
+  text-align: center;
+}

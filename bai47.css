@@ -1,0 +1,14 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 10px solid red;
+  padding: 50px;
+  margin: 100px;
+  outline: 10px solid blue;
+  outline-offset: 10px;
+  box-sizing: content-box;
+}
+.box2 {
+  box-sizing: border-box;
+}

@@ -1,0 +1,4 @@
+h1 {
+  color: aqua;
+  user-select: none; /* không thể bôi đen hoặc tương tác với văn bản nên cân thêm prefix*/
+}

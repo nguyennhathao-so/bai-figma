@@ -1,0 +1,30 @@
+/* .hopbox {
+  display: flex;
+  background-color: aqua;
+  flex-direction: row-reverse;
+  /* chú khi ta đặt cái nàu theo thêm từ flex trước start ,end thì sẽ khác */
+/* justify-content: end; */
+/* justify-content: start; */
+/* justify-content: flex-end; */
+/* justify-content: flex-start; }*/
+
+.hopbox {
+  height: 500px;
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+  justify-content: end;
+  /* align-items: start; */
+
+  /* ta cũng có thể viết gộp chung của hai cái này  flex-wrap: wrap; cùng cái này flex-direction: column; thành  flex-flow:wrap column */
+
+  /*  */
+
+  /* align-items: end; */
+}
+.box {
+  /* width: 30%; */
+
+  border: 1px solid green;
+  /* flex-direction: row; */
+}

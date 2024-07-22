@@ -1,0 +1,35 @@
+.noidung a {
+  /* gạch chân */
+  text-decoration: none;
+}
+
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung img {
+  width: 500px;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: green;
+  color: #fff;
+
+  /* cách viết rõ ràng thứ hai */
+  /* transition: width 0.25s ease, height 0.25s ease, background-color 0.25s ease,
+   
+  /* cách viết  ngắn nếu các cái kia đều giống nhau */
+  /*font-size 0.25s ease; */
+  transition: 0.25s;
+  cursor: pointer;
+}
+.btn:hover {
+  width: 250px;
+  height: 50px;
+  background-color: olivedrab;
+  font-size: 3vw;
+
+  /* di chuyển vị trí: */
+  /* transform: translateY(-20px); */
+}

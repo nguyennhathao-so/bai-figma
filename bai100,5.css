@@ -1,0 +1,14 @@
+.noidung a {
+  /* gạch chân */
+  text-decoration: none;
+}
+
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung p {
+  background-color: aquamarine;
+}
+.noidung img {
+  width: 700px;
+}

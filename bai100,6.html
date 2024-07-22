@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bai100,6.css" />
+    <style>
+      body {
+        background: aqua;
+      }
+    </style>
+    <title>
+      100.6 Dropdown và Textarea trong HTML -Tạo Form linh hoạt với textare và
+      select Hướng dẫn từ A đến Z
+    </title>
+  </head>
+  <body>
+    <div class="noidung">
+      <button>
+        <a href="https://youtu.be/Y3OSD7R2Nls?si=wJVFGiqzuDaa_s3I"
+          >link bài học</a
+        >
+      </button>
+      <button>
+        <a href="https://validator.w3.org/"
+          >web chạy thêm để kiểm tra có lỗi gì không</a
+        >
+      </button>
+
+      <br />
+      <img
+        src="./img5/Ảnh chụp màn hình 2024-07-16 171518.png"
+        alt="ảnh bài giảng"
+      />
+
+      <img
+        src="./img5/Ảnh chụp màn hình 2024-07-16 172152.png"
+        alt="ảnh bài giảng"
+      />
+      <img
+        src="./img5/Ảnh chụp màn hình 2024-07-16 173627.png"
+        alt="ảnh bài giảng"
+      />
+    </div>
+
+    <h2>Select</h2>
+    <form action="">
+      <label>
+        Select Color:
+        <br />
+
+        <!-- nếu người dùng cố tình không chọn màu mà muốn người thì ta dùng phần riquite: -->
+        <select name="color" id="color" required>
+          <!-- nếu không muốn hiện thị màu thì ta dùng như sau: -->
+          <!-- <option value="red"></option> -->
+          <!-- or -->
+          <option value="">Chọn màu</option>
+
+          <option value="red">Red</option>
+
+          <!-- nếu muốn thị ưu tiên thì dùng selected -->
+          <!-- <option value="blue" selected>Blue</option> -->
+
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="yellow">Yellow</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Xác nhận màu" />
+    </form>
+  </body>
+</html>

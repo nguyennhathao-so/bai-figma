@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bai100,1.css" />
+    <style>
+      body {
+        background: aqua;
+      }
+    </style>
+    <title>
+      100.1 HTML Form Tutorial Tạo Biểu Mẫu Cho Website Của Bạn -Kiến Thức Cơ
+      Bản về Thẻ Form HTML
+    </title>
+  </head>
+  <body>
+    <div class="noidung">
+      <button>
+        <a href="https://youtu.be/Z_yklMHacWY?si=lKFHPYmVN_LF32sZ"
+          >link bài học</a
+        >
+      </button>
+      <button>
+        <a href="https://www.w3schools.com/tags/tag_form.asp"
+          >tài liệu tham khảo</a
+        >
+      </button>
+      <button>
+        <a href="https://michalsnik.github.io/aos/">chạy demo</a>
+      </button>
+
+      <br />
+      <img
+        src="./img5/Ảnh chụp màn hình 2024-07-14 184250.png"
+        alt="ảnh nội dung"
+      />
+      <img
+        src="./img5/Ảnh chụp màn hình 2024-07-14 185442.png"
+        alt="kiến thức về id bài cũ 27"
+      />
+      <img
+        src="./img5/Ảnh chụp màn hình 2024-07-14 185433.png"
+        alt="kiến thức về các thuộc tính của form"
+      />
+      <img
+        src="./img5/Ảnh chụp màn hình 2024-07-14 190239.png"
+        alt="kiến thức về các thuộc tính của form"
+      />
+    </div>
+
+    <form action="">
+      <!-- action là nơi gửi đường link cho backend để truy cập đến backend -->
+
+      <!-- <input type="text" /> -->
+      <!-- type là kiểu dữ liệu của input, có thể là text, number, email, password-->
+
+      <!-- cách gõ phổ biến khác của input: -->
+      <!-- tạo lable cho input: -->
+      <label for="email">email:<br /></label>
+      <input
+        type="text"
+        name=""
+        id="email"
+        placeholder="nhập email"
+        value="NguyenHao@1345"
+      />
+      <!-- name là tên của input, id là id của input, id là để lấy ra input-->
+      <!-- placeholder là nội dung hiển thị trong input, khi chưa nhập gì vào-->
+
+      <!-- có thể viết đoạn code trên bằng cách khác: -->
+      <!-- <label for="email">email:
+        <input
+          type="text"
+          name=""
+          id="email"
+          placeholder="nhập email"
+          value="NguyenHao@1345"
+      /></label> -->
+
+      <br />
+      <br />
+      <label for="Password">Password:</label>
+      <input
+        type="password"
+        name=""
+        id="Password"
+        placeholder="Nhập Password"
+        required
+      />
+      <br />
+      <br />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>

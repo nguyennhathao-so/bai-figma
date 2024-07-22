@@ -1,0 +1,53 @@
+.noidung a {
+  /* gạch chân */
+  text-decoration: none;
+}
+
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung p {
+  background-color: aquamarine;
+}
+.noidung img {
+  width: 700px;
+}
+.container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  --size: 200px;
+  --fisrt-color: blue;
+  --second-color: yellow;
+  position: relative;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.loader::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: var(--size);
+  height: var(--size);
+
+  border: 30px solid var(--fisrt-color);
+  border-top: 30px solid var(--second-color);
+  border-radius: 50%;
+  animation: xoay 2s ease-in-out infinite;
+  animation-direction: reverse;
+}
+@keyframes xoay {
+  to {
+    rotate: 0;
+  }
+  from {
+    rotate: 360deg;
+  }
+}

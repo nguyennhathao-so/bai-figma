@@ -1,0 +1,44 @@
+.noidung a {
+  /* gạch chân */
+  text-decoration: none;
+}
+
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung p {
+  background-color: aquamarine;
+}
+.noidung img {
+  width: 700px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: yellow;
+  margin: 180px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* cách viết 1: */
+  /* animation: spin_element 1s; */
+  /* viết tường minh thì theo cấu trúc này: */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+  /* cách viết 2: */
+  animation-name: spin_element;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+}
+
+@keyframes spin_element {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}

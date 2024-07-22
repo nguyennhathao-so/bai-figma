@@ -1,0 +1,34 @@
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung img {
+  width: 500px;
+}
+/*1. min(<value-list>):
+Chọn giá trị nhỏ nhất (âm nhất) từ danh sách các biểu thức được phân tách bằng dấu phẩy
+*/
+.blog {
+  background: cyan;
+}
+
+/* hàm min */
+/* .blog {
+  width: min(800px, 100%);
+} */
+
+/* hàm max */
+/* .blog {
+    width: max(800px, 100%);
+} */
+
+/* hàm clamp */
+.blog {
+  width: clamp(800px, 100%, 1170px);
+  /* nếu ta muốn khi tăng thì nó tăng cỡ chữ hay thu cỡ chữ một mức nhất định thì ta dùng : */
+
+  /* áp dụng giới hạn  font-size thay đổi theo vw  */
+  /* font-size: 2vw; */
+
+  /* áp dụng với có giới hạn min và giới hạn max */
+  font-size: clamp(18px, 2vw, 24px);
+}

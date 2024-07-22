@@ -1,0 +1,108 @@
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung img {
+  width: 500px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px repeat(2, 50px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 5px;
+}
+
+.box1,
+.box4,
+.box5 {
+  background-color: #008cff;
+}
+.box2,
+.box3 {
+  background-color: red;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.box5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.mother {
+  margin-top: 500px;
+}
+
+.item1 {
+  background-color: #00ff26;
+}
+.item2 {
+  background-color: aqua;
+}
+.item3 {
+  background-color: rgb(252, 130, 232);
+}
+.item4 {
+  background-color: #eabc61;
+}
+.item5 {
+  background-color: #104302;
+}
+
+.item6 {
+  background-color: #02a636;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.mother {
+  background-color: #fffcc5;
+  /* display: grid; */
+  display: inline-grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(3, 50px);
+  gap: 5px;
+}
+.item1 {
+  /* grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3; */
+
+  /* cú pháp viết tắt thứ nhất: */
+  /* grid-row: 1/3;
+  grid-column: 1/3; */
+
+  /* cú pháp viết tắt thứ haiL: */
+  grid-area: 1/1/3/3;
+}
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+.item3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}

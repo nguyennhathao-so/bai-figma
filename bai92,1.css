@@ -1,0 +1,35 @@
+.noidung img {
+  width: 500px;
+}
+.container {
+  margin-top: 500px;
+  display: grid;
+  /* display: inline-grid; */
+  /* giá trị mặc định của hàng và cột trong grid */
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-columns: 100px 200px;
+  /* Không set row thì row sẽ là auto, vừa kích thước nội dung item */
+  grid-template-rows: 50px 100px 50px;
+
+  /* 4.quy định về gap: */
+  /* gap dòng:  */
+  grid-row-gap: 5px;
+  /* gap cột: */
+  grid-column-gap: 5px;
+}
+.box1,
+.box4,
+.box5 {
+  background-color: #52a2fd;
+}
+
+.box2,
+.box3 {
+  background-color: #ff4b4b;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

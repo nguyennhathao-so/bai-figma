@@ -1,0 +1,32 @@
+.noidung a {
+  /* gạch chân */
+  text-decoration: none;
+}
+
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung p {
+  background-color: aquamarine;
+}
+.noidung img {
+  width: 700px;
+}
+
+/* tác động vào thẻ khai  placeholder của thẻ input đang hiển thị : */
+input:placeholder-shown {
+  background-color: aquamarine;
+}
+/* tác động vào thẻ khai  placeholder của thẻ input đang không hiển thị : */
+input:not(:placeholder-shown) {
+  background-color: yellow;
+}
+
+/* đổi màu form khi focus vào pt con*/
+.logn-in:focus-within {
+  background-color: greenyellow;
+}
+/* Đổi màu button khi focus vào pt con: */
+.logn-in:focus-within button {
+  background-color: red;
+}

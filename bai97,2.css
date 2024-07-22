@@ -1,0 +1,65 @@
+.noidung a {
+  /* gạch chân */
+  text-decoration: none;
+}
+
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung p {
+  background-color: aquamarine;
+}
+.noidung img {
+  width: 700px;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: green;
+  color: #fff;
+
+  /* cách viết rõ ràng thứ hai */
+  /* transition: width 0.25s ease, height 0.25s ease, background-color 0.25s ease,
+     
+    /* cách viết  ngắn nếu các cái kia đều giống nhau */
+  /*font-size 0.25s ease; */
+  /* transition: 0.25s; */
+
+  cursor: pointer;
+
+  /* transform */
+
+  /* rotate:xoay */
+  /* transform: rotate(45deg); */
+  /* có thể viết tắt: */
+  /* rotate: 45deg; */
+
+  /* scale:phóng to , thu nhỏ */
+  /* transform: scale(9); */
+  /* có thể viết tắt: */
+  /* scale: 4; */
+
+  /* skew:nghiên, méo */
+  /* transform: skew(20deg); */
+
+  /* translate: dịch chuyển */
+
+  /* translateX:dịch sang ngang */
+  /* transform: translateX(-12px); */
+
+  /* translateY:dịch sang dọc */
+  /* transform: translateY(-16px); */
+
+  /* Kết hợp các thuộc tính của transform: */
+  /* transform: rotate(45deg) scale(2) translateX(10px); */
+}
+/* .btn:hover {
+  width: 250px;
+  height: 50px;
+  background-color: olivedrab;
+  font-size: 3vw; */
+
+/* di chuyển vị trí: */
+/* transform: translateY(-20px); */
+/* }  */

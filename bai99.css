@@ -1,0 +1,66 @@
+.noidung a {
+  /* gạch chân */
+  text-decoration: none;
+}
+
+.noidung {
+  margin-bottom: 500px;
+}
+.noidung p {
+  background-color: rgb(170, 88, 132);
+}
+.noidung img {
+  width: 700px;
+}
+.vidu1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* kiến thức cũ : box-shadow */
+/* .vidu1 img {
+  box-shadow: 0 0 20px black;
+} */
+
+/* kiến thức mới: drop-shadow */
+.vidu1 img {
+  filter: drop-shadow(0 0 20px black);
+}
+
+/* tạo khung chat: */
+.vidu2 .chat {
+  max-width: 300px;
+  font-size: 1.2rem;
+  filter: drop-shadow(0 0 2px black);
+  text-align: center;
+  margin: 0 auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.vidu2 .chat::after {
+  display: inline-block;
+  content: "";
+  border: 20px solid;
+  border-color: white transparent transparent;
+  position: absolute;
+  right: 5%;
+  bottom: -35px;
+  rotate: -12deg;
+}
+
+/* đổi màu icon: */
+.vidu3 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vidu3 .icon {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(98%) saturate(5661%)
+    hue-rotate(262deg) brightness(106%) contrast(101%);
+}
